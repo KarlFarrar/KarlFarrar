@@ -22,3 +22,8 @@
         
     }
  }
+
+public GameObject killEnemy(GameObject enemy)
+{
+    //learn how to do animations within a method? or activate them 
+}
