@@ -1,0 +1,24 @@
+//Karl Farrar
+//1-2 period
+
+ /**
+   Enemy Inflicts Damage 
+ **/
+ private int playerHealth = 100;
+ 
+ Update()
+ {
+    if(playerHealth>0&&timer==0||!answer)
+    {
+        playerHealth= playerhealth-10;
+    }
+    else if(answer)
+    {
+      killEnemy();
+    }
+    else
+    {
+        killPlayer();
+        
+    }
+ }
